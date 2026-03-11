@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (mediaPlayer != null) {
+                    mediaPlayer.setLooping(true);
                     mediaPlayer.start();
                 }
             }
